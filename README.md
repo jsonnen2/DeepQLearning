@@ -1,10 +1,5 @@
-# DeepQLearning
-I am using the Deep Q Learning Reinforcement Algorithm to train a Neural Net to play games.
+# Deep Q Learning
+A Reinforcement Learning algorithm which strives to create a Neural Network that can predict the optimal action given the current gamestate. 
 
-Linear Architecture with Feature Selection
-- Cart and Pole
-- Farkle
-- Snake
-
-Convolutional Architecture
-- Atari Games
+## Experience Replay
+A memory for the agent which store the current state, selected action, reward, resulting state, and done flag (a boolean value describing if the game has ended). 
